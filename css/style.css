@@ -1,0 +1,113 @@
+body {
+    margin: 0% auto;
+  }
+  
+  .navigation {
+      background-color: #373738;
+      width: 100%;
+      top: 0px;
+      position: fixed;
+      position: sticky;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-left: 20px; 
+      padding-right: 20px;
+      padding-top: 20px;
+      padding-bottom: 25px;
+      justify-content: space-between;
+      }
+  
+  .inline-block {
+      display: inline-block;
+      vertical-align: top;
+      padding: 3px 10px 0px 10px;
+  }
+  
+  .lorisLogo {
+    width: 40px;
+    }
+  
+  .name{
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  nav ul {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    list-style: none;
+    float: right;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    }
+  
+  .heroImg {
+        padding-bottom: 80px;
+        align-items: center;
+  }
+  
+  .content {
+      width: 400px;
+      margin: 0 auto;
+      margin-top: 60px;
+      text-align: center;
+  }
+  
+  footer {
+      background-color: #373738;
+      width: 100%;
+      bottom: 0px;
+      position: sticky;
+      position: fixed;
+  }
+  
+  a:link {
+      color: white;
+      text-decoration: none;
+  }
+  a:visited {
+      color: white;
+      text-decoration: none;
+  }
+  a:hover {
+      color: white;
+      text-decoration: none;
+  }
+  a:active {
+      color:white;
+      text-decoration: none;
+  }
+  
+  html, body {
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+      overflow-x: hidden;
+    }
+  
+  h1{
+    font-size: 60px;
+    text-align: right;
+    color: black;
+  }
+  
+  h2 {
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    display: inline-block;
+  }
+  
+  button {
+    width: 40%;
+    height: 50%;
+  }
+  
