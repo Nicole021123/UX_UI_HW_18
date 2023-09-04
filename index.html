@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Lori Gonzales M17 Challenge</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <title>Lori Gonzales M18 Challenge</title>
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -11,14 +11,20 @@
       <div class="logo">
         <div class="lorisLogo">
       </div>
-          <img src="images/Logo for portfolio.png" alt="logo">
+          <img src="images/Logo for portfolio.png" alt="logo" style="
+          height: 46px;
+          width: 81px;
+          padding-left: 20px;
+      "> 
       </div>
       <div class="name">
         <h2>Lori Gonzales</h2>
       </div>
 
-      <nav class="">
-          <ul class="">
+      <nav class>
+          <ul class style="
+            padding-right: 40px;
+            ">
               <li class=""><a href="#">About</a></li>
               <li class=""><a href="#">Skills</a></li>
               <li class=""><a href="#">Work</a></li>
@@ -29,12 +35,89 @@
 
   <section class="heroImg">
       <div class="content">
-          <img src="images/Headshot 2.png">
+          <img src="images/IMG_4086.JPG" style=" 
+            height: 400px;
+          ">
           <h1>Hi I'm a Lori!</h1>
           <p>As a management professional specializing in people development, I am ardently pursuing my genuine passion.</p>
           <button>Download Resume</button>
       </div>
-  </section>
+  </section> <!-- My Skills section coded using CSS flex-->
+ 
+  <section id="mySkills-container">
+      <h1 style="
+        height: 54px;
+      ">My Skills</h1>
+    <div class="flexContainer"></div>
+    <div class="skillCard"></div>
+  <div>
+      <img src="images/Frame 131 (1).png" style=" 
+      height: 200px;
+      width: auto;">
+      <h3>UX Designer</h3>
+      <p>Wireframe, Prototype, Mock ups, and User Flow abilities.</p>
+    </div>
+    <div class="skillCard">
+      <img src="images/card sorting.png" style=" 
+      height: 200px;
+      width: auto;">
+      <h3>Information Architecture</h3>
+      <p>Effectively organizing and structuring content.</p>
+    </div>
+    <div class="skillCard">
+      <img src="images/Agile PM.jpg" style=" 
+      height: 200px;
+      width: auto;">
+      <h3>Project Management</h3>
+      <p>Focused on continuous releases and customer feedback</p>
+    </div>
+ </div>
+</section>
+
+<!-- My Work section coded using CSS flex-->
+
+<section id="myWork-Grid">
+  <h1 style="
+    height: 54px;
+    ">My Work</h1>
+  
+  <div class="nested-grid">
+    <img src="images/Project stay landing page above the fold.png" alt="non profit img" class="cardLeft-img"> 
+    <!-- Case Study 1 Content Container-->
+    <div class="cardRight-details">
+      <h2 class="cardTitle">Non-Profit Redesign</h2>
+      <p>As a result of collective deliberation, ProjectStay emerged as the unanimous choice for our group project. We arrived at this decision based on the non-profit organization's lack of responsive web design for mobile devices. Furthermore, the current website suffered from a user-unfriendly and unreliable content layout, posing challenges for visitors in comprehending the services provided by ProjectStay.</p>
+      <button class="cardCTA">View Project</button>
+    </div>
+  </div>
+
+  
+  <div class="nested-grid">
+    <img src="images/Medical app.png" alt="medical app img" class="cardLeft-img"> 
+    <!-- Case Study 2 Content Container-->
+    <div class="cardRight-details">
+      <h2 class="cardTitle">Medical Application</h2>
+      <p>A collaborative bootcamp challenge centered around our innovative creation — an exclusive social platform tailored to individuals sharing a common medical condition. This platform enables its users to connect with one another, whether they are present at the same doctor's office or hospital.</p>
+      <button class="cardCTA">View Project</button>
+    </div>
+  </div>
+
+
+  <div class="nested-grid">
+    <img src="images/random joy site above the fold.png" alt="pending pic" class="cardLeft-img"> 
+
+    <!-- Case Study 3 Content Container-->
+    <div class="cardRight-details">
+      <h2 class="cardTitle">Case Study Coming Soon</h2>
+      <p>Lorem ipsum dolor sit amet consectetur. Non in gravida ac imperdiet egestas gravida. Ipsum facilisis vitae risus eget. Vitae risus fusce bibendum euismod. Cras suscipit senectus urna accumsan nunc libero id tincidunt.</p>
+      <button class="cardCTA">View Project</button>
+    </div>
+  </div>
+
+  <!-- SectionCTA -->
+  <button class="sectionCTA">View All Projects</button>
+</section>
+
 
   <footer>
       <ul>
